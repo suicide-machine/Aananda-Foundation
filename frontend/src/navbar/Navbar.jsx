@@ -9,14 +9,16 @@ const Navbar = () => {
       <div class="page-main-nav">
         <div class="container container--nav container--xl">
           <div class="site-header__split">
-            <a
+            {/* <a
               href="https://google.com"
               class="site-logo"
               aria-label="David Suzuki Foundation"
               target="_blank"
-            >
+            ></a> */}
+
+            <Link to={"/"}>
               <img src={Logo} alt="Logo" className="w-24 h-24 rounded-full" />
-            </a>
+            </Link>
 
             <div class="site-header__main">
               <nav class="site-util">
