@@ -17,7 +17,11 @@ const Navbar = () => {
             ></a> */}
 
             <Link to={"/"}>
-              <img src={Logo} alt="Logo" className="w-24 h-24 rounded-full" />
+              <img
+                src={Logo}
+                alt="Logo"
+                className="w-24 h-24 rounded-full site-logo"
+              />
             </Link>
 
             <div class="site-header__main">
